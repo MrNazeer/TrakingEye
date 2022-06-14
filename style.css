@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(255, 255, 0, 0.411);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right{
+    background-color: aliceblue;
+    position: relative;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 15px 1px black;
+    overflow: hidden;
+}
+
+.container{
+    gap: 20px;
+}
+
+.lpulp, .rpulp{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    transition: all 1ms;
+    border: 10px solid teal;
+}
+
